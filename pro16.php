@@ -1,29 +1,27 @@
-#include <stdio.h>
+<?php
+// For loop
 
-int main() {
-    int i;
-
-    // Using for loop
-    printf("Using for loop:\n");
-    for(i = 1; i <= 20; i++) {
-        printf("%d ", i);
-    }
-
-    printf("\n\nUsing while loop:\n");
-    // Using while loop
-    i = 1;
-    while(i <= 20) {
-        printf("%d ", i);
-        i++;
-    }
-
-    printf("\n\nUsing do-while loop:\n");
-    // Using do-while loop
-    i = 1;
-    do {
-        printf("%d ", i);
-        i++;
-    } while(i <= 20);
-
-    return 0;
+for ($i = 1; $i <= 20; $i++) {
+    echo $i . "<br>";
 }
+
+echo "<br>";
+
+// While loop
+
+$i = 1;
+while ($i <= 20) {
+    echo $i . "<br>";
+    $i++;
+}
+
+echo "<br>";
+
+// Do...while loop
+
+$i = 1;
+do {
+    echo $i . "<br>";
+    $i++;
+} while ($i <= 20);
+?>
