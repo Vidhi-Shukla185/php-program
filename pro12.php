@@ -12,9 +12,9 @@ $sum= $a+$b;
 </head>
 <body>
     <h1> PHP integer variables example</h1>
-    <p>First num:<?phpecho $a;?></p>
-     <p>Second num:<?phpecho $b;?></p>
-      <p>Sum of:<?php echo $a;?>and <?phpecho $b;?> is <?phpecho $sum;?></p>
+    <p>First num:<?php echo $a ;?></p>
+     <p>Second num:<?php echo $b;?></p>
+      <p>Sum of:<?php echo $a;?>+ <?php echo $b;?> = <?php echo $sum;?></p>
     
 </body>
 </html>
